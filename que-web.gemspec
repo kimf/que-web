@@ -18,7 +18,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "que", "~> 0.11"
-  spec.add_dependency "sinatra", "~> 1.4.7"
+  # spec.add_dependency "sinatra", "~> 1.4.7"
+  spec.add_dependency "rack", "~> 2.x"
   spec.add_dependency "erubis"
 
   spec.add_development_dependency "bundler", ">= 1.3.0"
